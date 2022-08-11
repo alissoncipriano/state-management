@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fef5dd;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.App-container {
+  height: 100%;
+  padding: 4em 0;
+  padding-right: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.App-container h1 {
+  color: #511c0f;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.Panel {
+  position: relative;
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid #e9d1ac;
+  min-width: 350px;
+  background-color: #ffffff;
+  margin-top: 25px;
+  transition: 0.1s all ease-in-out;
+}
+.Panel h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #715c45;
+}
+.Panel button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #dbc1b8;
+  border-radius: 10px;
+  color: #866257;
+  transition: 0.1s all ease-in-out;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1em;
+  background-color: #f9dfd8;
+  margin-top: 25px;
+}
+.Panel-inputGroup {
+  width: 100%;
+  margin-top: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.Panel-inputGroup label {
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  top: 14px;
+  left: 5%;
+  color: #957d75;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+.Panel-inputGroup input {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #fbf7f6;
+  border: 1px solid #eadfdb;
+  border-radius: 10px;
+  color: #42312b;
+  opacity: 0.8;
+  transition: 0.1s all ease-in-out;
+  cursor: pointer;
+}
+.Panel-inputGroup input:focus {
+  outline: none;
+}
+.Panel-inputGroup.selected label {
+  transform: translateY(-25px);
+  color: #4f3c36;
+}
+.Panel-clean-button {
+  background-color: #fff !important;
+}

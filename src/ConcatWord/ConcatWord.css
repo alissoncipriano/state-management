@@ -1,0 +1,11 @@
+.ConcatWord {
+  display: flex;
+  flex-direction: column;
+}
+.ConcatWord-list {
+  margin-top: 25px;
+  max-width: 20vw;
+  word-wrap: break-word;
+  text-align: center;
+  align-self: center;
+}
