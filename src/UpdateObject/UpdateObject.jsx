@@ -38,9 +38,6 @@ export const UpdateObject = () => {
 
   const handleClean = (e) => {
     e.preventDefault();
-    setNome('');
-    setIdade('');
-    setProfissao('');
     setPessoa('');
   };
 
