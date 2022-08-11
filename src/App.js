@@ -27,11 +27,6 @@ function App() {
           <LoggedUser />
         </div>
       </UserProvider>
-
-      <div className='App-container'>
-        <h1>States com React Query</h1>
-        <SimpleClicker />
-      </div>
     </div>
   );
 }
