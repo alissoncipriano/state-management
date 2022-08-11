@@ -1,0 +1,21 @@
+.Login-error {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.1s all ease-in-out;
+  margin-top: 15px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.Login-error {
+  color: #7b2222;
+  background-color: #ffe3e3;
+}
+.Login-error span {
+  margin-left: 8px;
+  font-weight: 400;
+}
+.Login-error span {
+  text-transform: initial;
+}

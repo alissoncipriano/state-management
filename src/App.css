@@ -1,20 +1,33 @@
 .App {
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   background-color: #fef5dd;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-y: auto;
+}
+.App-obs {
+  position: absolute;
+  top: -1em;
+  font-size: 1.2em;
+  padding: 30px 15px;
+  background-color: #f9f0cc;
+  color: #484126;
+  border: 1px solid #cdc08d;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .App-container {
   height: 100%;
-  padding: 4em 0;
-  padding-right: 20px;
+  margin-top: 7em;
+  padding: 5em;
   box-sizing: border-box;
-  overflow-y: auto;
   overflow-x: hidden;
 }
 .App-container h1 {
@@ -94,4 +107,22 @@
 }
 .Panel-clean-button {
   background-color: #fff !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a8a8a8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fdd1d1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc56b;
 }
